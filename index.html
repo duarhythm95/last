@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Website is FULLY RESPONSIVE , Comments have been added for easy understanding of code-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link To CSS stylesheet and media stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="media.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&display=swap" rel="stylesheet">
+    <!--Title of the Website-->
+    <title>Josh Assignment-Sarthak</title>
+</head>
+
+<body>
+    <div class="container"> <!--Outer Most Structure of HTMLL-->
+        <div class="background">    <!--For background Tiles  -->
+            <div class="tile1"></div>
+            <div class="tile2"></div>
+            <div class="tile3"></div>
+        </div>
+        <div class="header"> 
+            <div class="Left-Nav">
+                <div class="task">
+                    <a href="#"><img src="./images/Group.png" alt="todo-icon"></a>
+                    Taskdo
+                </div>
+                <div class="Nav-Items">  <!-- Navigation bar -->
+                    <div class="nav-div">
+                        <a href="#">About</a>
+                    </div>
+                    <div class="nav-div">
+                        <a href="#">Product</a>
+                    </div>
+                    <div class="nav-div">
+                        <a href="#">Pricing</a>
+                    </div>
+                    <div class="nav-div">
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="nav-div">
+                        <a href="#">Jobs</a>
+                    </div>
+                    <div class="nav-div drpdown"> <!-- Dropdown Feature Added !-->
+                        <a href="#">More</a>
+                        <img src="./images/chevron-down.png" class="imgno" alt="dropdown">
+                    </div>
+                </div>
+            </div>
+            <div class="Right-Nav">     <!-- Right Navigation bar Having App Features-->
+                <a href="#"><img src="./images/Google Play Badge.png" alt="GooglePlay"></a>
+                <a href="#"><img src="./images/App Store Badge.png" alt="AppStore"></a>
+            </div>
+        </div>
+
+        <div class="hero">  <!-- Hero Part (II Section of Website)-->
+            <div class="content"> 
+                <div class="text">
+                    Organise projects.
+                    <br>
+                    Get more done.
+                </div>
+                <button type="button">Get Started</button>
+            </div>
+            <div class="mobile">
+                <img src="./images/iPhone X.png" href="" alt="mobile-icon">
+            </div>
+        </div>
+
+
+        <div class="Logo-Clouds"> <!-- III Section of website containing Carousel-->
+            <!-- caraousel -->
+            <div class="carousel abc">
+                <div class="left-arrow" id="next-button">  <!-- Navigation Button Left -->
+                    <img src="./images/left-arrow.png" alt=left-arrow"> <!-- Logo Images Start-->
+                </div>
+                <div class="slide airbnb-car">
+                    <img src="./images/Airbnb Logo.png" alt="Airbnb Logo">
+                </div>
+                <div class="slide hubspot-car">
+                    <img src="./images/Hubspot Logo.png" alt="Hubspot Logo">
+                </div>
+                <div class="slide google">
+                    <img src="./images/Google Logo.png" alt="Google Logo">
+                </div>
+                <div class="slide microsoft">
+                    <img src="./images/Microsoft Logo.png" alt="Microsoft Logo">
+                </div>
+                <div class="slide walmart">
+                    <img src="./images/Walmart Logo.png" alt="Walmart Logo">
+                </div>
+                <div class="slide fedex">
+                    <img src="./images/FedEx Logo.png" alt="FedEx Logo"><!--Logo Images End -->
+                </div>
+                <div class="rightarrow" id="prev-button">
+                    <img src="./images/right-arrow.png" alt="RIGHT-ARROW"> <!-- Navigation Button Right -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="features">  <!-- Features : IV Section of website containing Carousel -->
+            <div class="description"> <!-- Heading -->
+                <div class="d-heading">Tailor-made features</div>
+                <p>
+                    Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or
+                    visual presentation.
+                </p>
+            </div>
+
+            <div class="feature-list"> <!-- Salient Features Along with Images-->
+                <div class="fxnlist"> 
+                    <div class="fxn">
+                        <div class="fxnimgs">
+                            <img src="./images/robust.png" alt="Robust-icon">
+                            <div class="fxnheading">Robust workflow</div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+                        </p>
+                    </div>
+                    <div class="fxn">
+                        <div class="fxnimgs">
+                            <img src="./images/flexibility.png" alt="flexibility-icon">
+                            <div class="fxnheading">Flexibilty</div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+                        </p>
+                    </div>
+                    <div class="fxn">
+                        <div class="fxnimgs">
+                            <img src="./images/user friendly.png" alt="user friendly-icon">
+                            <div class="fxnheading">User Friendly</div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="fxnlist">
+                    <div class="fxn">
+                        <div class="fxnimgs">
+                            <img src="./images/multiple layouts.png" alt="Multiple Layouts-icon">
+                            <div class="fxnheading">Multiple Layouts</div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+                        </p>
+                    </div>
+                    <div class="fxn">
+                        <div class="fxnimgs">
+                            <img src="./images/better components.png" alt="Better components-icon">
+                            <div class="fxnheading">Better components</div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+                        </p>
+                    </div>
+                    <div class="fxn">
+                        <div class="fxnimgs">
+                            <img src="./images/well organised.png" alt="Well organised-icon">
+                            <div class="fxnheading">Well organised</div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial"> <!-- Testimonials : V section of the website-->
+            <img src="./images/double quote.png" class="dq-icon" alt="dq-icon">
+            <div class="testheading">  <!-- Heading of the section -->
+                <div class="realheading">
+                    Real Stories from Real Customers
+                </div>
+                <div class="subtestheading">
+                    Get inspired by these stories.
+                </div>
+            </div>
+            <div class="hubspot feedback"> <!-- Testimonial Part -1 -->
+                <img src="./images/double quote.png" class="sdq-icon" alt="dq-icon">
+                <div class="icon">
+                    <img src="./images/hubspot.png" alt="hubspot-icon">
+                </div>
+                <div class="divcontent">
+                    To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is
+                    one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily
+                    editable.
+                </div>
+                <div class="author">
+                    Floyd Miles
+                    <span class="desg">
+                        Vice President, GoPro
+                    </span>
+                </div>
+
+            </div>
+            <div class="airbnb feedback"> <!-- Testimonial Part-2  -->
+                <img src="./images/double quote.png" class="sdq-icon" alt="dq-icon">
+                <div class="icon">
+                    <img src="./images/airbnb.png" alt="airbnb-icon">
+                </div>
+                <div class="divcontent bnb">
+                    I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple
+                    and highly intuitive, so anyone can use it.
+                </div>
+                <div class="author">
+                    Jane Cooper
+                    <span class="desg">
+                        CEO, Airbnb
+                    </span>
+                </div>
+            </div>
+            <div class="bookmyshow feedback"><!-- Testimonial Part-3 -->
+                <img src="./images/double quote.png" class="sdq-icon" alt="dq-icon">
+                <div class="icon">
+                    <img src="./images/BookMyShow.png" alt="bms-icon">
+                </div>
+                <div class="divcontent bms">
+                    Landify saved our time in designing my company page.
+                </div>
+                <div class="author">
+                    Kristin Watson
+                    <span class="desg">
+                        Co-Founder, BookMyShow
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="stats"> <!-- Statistics : VI Section of the Website -->
+            <div class="statsquote"> <!-- Our quote of the statistics section -->
+                <div class="text1">
+                    Our 18 years of achievements
+                </div>
+                <div class="text2">
+                    With our super powers we have reached this
+                </div>
+            </div>
+
+            <div class="stats-details"> <!--Facts of our Statistics -->
+                <div class="details"> <!-- Facts Box-1 -->
+                    <div class="fxnimgs2">
+                        <div class="statimg">
+                            <img src="./images/10K.png" alt="10,000+">
+                        </div>
+                        <div class="fxnheading2">
+                            <div class="fhead">
+                                10,000+
+                            </div>
+                            <span class=subheding>
+                                Downloads per day
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fxnimgs2">
+                        <div class="statimg">
+                            <img src="./images/2mil.png" alt="2 Million">
+                        </div>
+                        <div class="fxnheading2">
+                            <div class="fhead">
+                                2 Million
+                            </div>
+                            <span class=subheding>
+                                Users
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="details"><!--Facts box 2 -->
+                    <div class="fxnimgs2">
+                        <div class="statimg">
+                            <img src="./images/500+.png" alt="500+">
+                        </div>
+                        <div class="fxnheading2">
+                            <div class="fhead">
+                                500+
+                            </div>
+                            <span class=subheding>
+                                Clients
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fxnimgs2">
+                        <div class="statimg">
+                            <img src="./images/oneforty.png" alt="140">
+                        </div>
+                        <div class="fxnheading2">
+                            <div class="fhead">
+                                140
+                            </div>
+                            <span class=subheding>
+                                Countries
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-feature"> <!-- Mockup Feature : VII section of the website -->
+            <div class="mockup">
+                <img src="./images/Phone Mockup.png" alt="Phone Mockup">
+            </div>
+            <div class="headline"> <!-- Heading of this Section -->
+                <div class="headlinehead">
+                    Headline
+                </div>
+                <div class="headtxt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra,
+                    feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit
+                    non. Non commodo volutpat, pharetra, vel.
+                </div>
+                <div class="headbutton">
+                    <button type="button" class="button2">Get Started</button>
+                    <img src="./images/Vector.png" alt="right-side-arrow">
+                </div>
+
+            </div>
+        </div>
+        <div class="footer"> <!-- Footer : VIII and last section of the website -->
+            <div class="leftfooter"> <!-- Left site of footer containing the links to different pages -->
+                <div class="logo">
+                    <a href="#"><img src="./images/Group.png" alt="todo-icon"></a>
+                </div>
+                <div class="permissions">
+                    <a href="#">Download Now</a>
+                    <a href="#">License</a>
+                </div>
+                <div class="info-foots">
+                    <a href="#">About</a>
+                    <a href="#">Product</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Help</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="copyright"> <!-- Copyright -->
+                    &copy 2020 Landify UI Kit.All rights reserved
+                </div>
+            </div>
+            <div class="rightfooter"> <!-- Advertisement of Website about Different Apps-->
+                <div class="footcontent">
+                    Get the App
+                </div>
+                <div class="available-on">
+                    <div class="appstore">
+                        <img src="./images/App Store Badge.png" alt="AppStore-icon">
+                    </div>
+                    <div class="playstore">
+                        <img src="./images/Google Play Badge.png" alt="GooglePlay">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link to JavaScript File -->
+</body>
+
+</html>

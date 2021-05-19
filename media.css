@@ -1,0 +1,552 @@
+/* CSS -- MEDIA QUERY FOR MOBILE RESPOSIVE WEBSITE : MEDIA QUERY ONLY MAINTAINS THE CHANGES THAT ARE TO BE MADE 
+IN VARYING SCREEN SIZE , REST ALL FEATURES GET INHERITED FROM style.css BY DEFAULT */
+/* BACKGROUND CSS */
+.background {
+    height: 14vw;
+    top: 36vw;
+    -ms-transform: skewY(-20deg);
+    transform: skewY(-5deg);
+}
+/* HEADER CSS */
+.header {
+    height: 5vw;
+}
+
+.Left-Nav {
+    width: 67vw;
+    height: 5vw;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+    left: 0%;
+}
+
+.task {
+    font-size: 1.5vw;
+    height: 4vw;
+    width: 12vw;
+    left: 5.5vw;
+    top: 0.7vw;
+}
+
+.task img {
+    width: 4vw;
+    height: 1vw;
+    height: 3.8vw;
+}
+
+.task:hover, .Nav-Items a:hover {
+    border-radius: 1vw;
+    font-size: 1.9vw;
+    border: 1vw solid rgba(190, 144, 212, 1.0);
+}
+
+.Nav-Items {
+    justify-content: s;
+    width: 43vw;
+    height: 5vw;
+    left: 20vw;
+}
+
+.nav-div {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+a {
+    font-size: 1.4vw;
+}
+
+.Right-Nav {
+    width: 26vw;
+    height: 4vw;
+    justify-content: center;
+    position: static;
+    position: relative;
+    top: 0;
+    left: -6vw;
+}
+
+.Right-Nav>img {
+    width: 49%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.dropdown-list {
+    height: 15vw;
+    width: 8vw;
+    left: 55vw;
+}
+
+.dropdown-list>a {
+    padding-right: 1.5vw;
+    font-size: 2vw;
+}
+
+
+.drpdown img {
+    height: 2vw;
+    width: 2vw;
+}
+
+/* CSS FOR HERO */
+
+.hero {
+    height: 55vw;
+    display: flex;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    font-size: 1.5vw;
+    background-color: #d4eef5;
+    color: black;
+    border: 0.3vw solid black;
+}
+
+button {
+    bottom: 2px;
+    position: relative;
+    left: 2px;
+    transition-duration: 0.4s;
+    background-color: #8c30f5;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 13vw;
+    height: 16%;
+    font-size: 1.5vw;
+    border-radius: 5px;
+}
+
+.content {
+    height: 20vw;
+    left: 5%;
+}
+
+.text {
+    height: 76%;
+    font-size: 5vw;
+}
+
+.button2 {
+    width: 13vw;
+}
+
+.button2:hover {
+    background-color: blueviolet;
+    border: 0.3vw solid black;
+    color: white;
+}
+
+.mobile {
+    top: 5%;
+    height: 46vw;
+    width: 27vw;
+    left: 62%;
+}
+
+/* LOGO CLOUD CSS */
+
+.Logo-Clouds {
+    height: 18vw;
+    padding: 3vw;
+}
+
+.logo {
+    height: 8vw;
+}
+
+.logo img {
+    height: 5vw;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    height: 83%;
+    width: 100vw;
+    justify-content: space-between;
+}
+.abc{
+    border-image: linear-gradient(100deg,white,#dfe6e9,white)1;
+}
+
+.left-arrow img, .rightarrow img {
+    width: 4vw;
+    height: 3vw;
+}
+
+
+/* Features CSS */
+
+.features {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 53vw;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.description {
+    height: 11vw;
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.description p{
+    line-height: 2vw;
+}
+
+.d-heading {
+    justify-content: center;
+    display: flex;
+    height: 11vh;
+    font-size: 4vw;
+    width: 100%;
+}
+
+p {
+    padding: 1px;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+.feature-list {
+    justify-content: space-around;
+    padding: 2vw;
+    padding-top: 0;
+}
+
+.fxnlist {
+    width: 95%;
+}
+
+.fxnheading {
+    font-size: 1.8vw;
+    line-height: 4vw;
+}
+
+/* Testimonial CSS*/
+
+.testimonial {
+    height: 79vw;
+}
+
+.testheading {
+    height: 14vw;
+    color: black;
+    width: 41vw;
+    font-weight: 415px;
+    left: 18vw;
+    padding-left: 2;
+    top: 12%;
+}
+
+.realheading {
+    font-size: 4vw;
+    height: 73%;
+}
+
+.dq-icon {
+    left: 11vw;
+    top: 7vw;
+    height: 9vw;
+}
+
+.sdq-icon {
+    left: 1vw;
+    top: 7.5vw;
+    height: 2.3vw;
+}
+
+.subtestheading {
+    align-items: center;
+    display: flex;
+    height: 27px;
+    font-size: 1.9vw;
+}
+
+.hubspot {
+    width: 31vw;
+    height: 39vw;
+    top: 29vw;
+    left: 19vw;
+}
+
+.airbnb {
+    width: 27vw;
+    height: 30vw;
+    top: 23vw;
+    left: 53vw;
+}
+
+.bookmyshow {
+    width: 30vw;
+    height: 22vw;
+    top: 55vw;
+    left: 53vw;
+}
+
+.icon {
+    display: flex;
+    padding: 1vw 1vw 1vw 3vw;
+    align-items: center;
+}
+
+.divcontent {
+    padding: 1vw 0vw 2vw 4vw;
+    font-size: 1.7vw;
+}
+
+.author {
+    margin-top: 1vw;
+    display: flex;
+    font-size: 1.5vw;
+    font-weight: 1000;
+    padding-left: 3vw;
+}
+
+.desg {
+    font-weight: 500;
+}
+
+/* STATISTICS CSS */
+
+.stats {
+    background-color: white;
+    position: relative;
+    height: 24vw;
+    width: 100%;
+    top: 343%;
+    display: flex;
+    align-items: center;
+}
+
+.statsquote {
+    height: 15vw;
+    width: 38vw;
+    left: 7vw;
+    top: 7vw;
+}
+
+.text1 {
+    height: 9vw;
+    font-size: 3.5vw;
+    width: 100%;
+}
+
+.text2 {
+    font-size: 1.5vw;
+    height: 3vw;
+}
+
+.stats-details {
+    top: 4vw;
+    left: 52vw;
+    height: 18vw;
+    width: 40vw;
+}
+
+.details {
+    height: 21vw;
+}
+
+.fxnheading2 {
+    align-items: left;
+}
+
+.fhead {
+    font-size: 2vw;
+}
+
+.statimg {
+    width: 12vw;
+}
+
+.subheding {
+    font-size: 1.3vw;
+}
+
+/* SINGLE FEATURE CSS */
+
+.single-feature {
+    height: 52vw;
+}
+
+.mockup {
+    left: 7vw;
+    height: 43vw;
+    width: 41vw;
+}
+
+.mockup>img {
+    width: 100%;
+    height: 100%;
+}
+
+.headline {
+    height: 24vw;
+    width: 38vw;
+    left: 52vw;
+    top: 17vw;
+}
+
+.headlinehead {
+    font-size: 3vw;
+    padding: 0.7vw;
+}
+
+.headtxt {
+    padding: 0.8vw;
+    font-size: 1.3vw;
+    width: 100%;
+}
+
+.headbutton {
+    padding-top: 0.5vw;
+}
+
+.headbutton img {
+    width: 2.5vw;
+}
+
+/* FOOTER CSS */
+
+.footer {
+    height: 23vw;
+    background: black;
+    display: flex;
+}
+
+.leftfooter {
+    height: 21vw;
+    width: 71vw;
+    left: 3vw;
+    top: 2vw;
+}
+
+.permissions {
+    height: 4vw;
+    width: 66%;
+    display: flex;
+    left: 1.4vw;
+    top: 0.6vw;
+}
+
+.info-foots {
+    height: 5v;
+    justify-content: space-between;
+    width: 68%;
+}
+
+.copyright {
+    width: 60%;
+    top: 0vw;
+    font-size: 1.5vw;
+}
+
+.rightfooter {
+    height: 17vw;
+    width: 22vw;
+    left: 75vw;
+    top: 2vw;
+}
+
+.footcontent {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    color: white;
+    padding: 1vw 0px 0px 3vw;
+    font-size: 2.5vw;
+    padding-left: 3vw;
+}
+
+.available-on {
+    height: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    height: 100%;
+    font-size: 1.7vw;
+}
+
+.permissions a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.info-foots a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.active-class {
+    color: white;
+    background: rgba(190, 144, 212, 1.0);
+    border-radius: 1.3vw;
+    border: 1vw solid rgba(190, 144, 212, 1.0);
+    font-size: 2vw;
+    object-fit: contain;
+}
+
+.available-on img:hover {
+    transform: scale(1.2);
+}
+
+.Right-Nav img {
+    width: 10vw;
+    height: 3vw;
+}
+
+.slide {
+    height: 9vh;
+    width: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide img {
+    width: 11vw;
+}
+
+.fxnimgs img {
+    width: 4vw;
+}
+
+.icon img {
+    height: 5vw;
+    width: 16vw;
+}
+
+.statimg img {
+    height: 4vw;
+    width: 5vw;
+}
+
+.available-on img {
+    height: 4vw;
+}
+
+.aa img {
+    width: 6vw;
+}
